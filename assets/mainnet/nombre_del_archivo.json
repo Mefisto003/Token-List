@@ -1,0 +1,3 @@
+git add assets/mainnet/nombre_del_archivo.json
+git commit -m "Añadir TESSACOIN a la lista de tokens."
+git push origin main

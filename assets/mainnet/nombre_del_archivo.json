@@ -1,3 +1,18 @@
-git add assets/mainnet/nombre_del_archivo.json
-git commit -m "Añadir TESSACOIN a la lista de tokens."
-git push origin main
+{
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "HrHS4LKVJnNccdgCadhwBBRRcKfkD19U1eBmR4MDZk1Q",
+      "symbol": "TESSACOIN",
+      "name": "TESSACOIN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Mefisto003/TESSACOIN/main/TESSACOIN.jpeg",
+      "tags": ["utility-token"]
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 3,
+    "patch": 3
+  }
+}
